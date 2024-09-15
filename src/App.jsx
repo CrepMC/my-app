@@ -1,16 +1,14 @@
-// import React from 'react'
-import Sidebar from './components/Sidebar/Sidebar'
-import Detail from './components/Detail/Detail'
-import Container from './components/Container/Container'
+// import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
     <div className='container'>
-      <Sidebar />
-      <Detail />
-      <Container />
+      <Navbar />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
